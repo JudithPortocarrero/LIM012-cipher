@@ -1,9 +1,11 @@
 import cipher from './cipher.js';
-const form = document.querySelector('form');
-const texto = document.getElementById('texto').value;
-const offset = document.getElementById('offset').value;
-const codificar = document.getElementById('codificar');
-const codificado = document.getElementById('codificado');
-
-codificar,addEventListener('click',endoce,false);
+const form = document.querySelector("form");
+//const texto = document.getElementById('texto').value;
+//const offset = document.getElementById('offset').value;
+const codificar = document.getElementById("codificar");
+const codificado = document.getElementById("codificado");
+//const palabra = texto.length;
+//let result, ascii;
+const codi = cipher.encode(document.getElementById("texto").value, document.getElementById("offset").value);
+codificar.addEventListener("click", codi, false);
 console.log(cipher);
