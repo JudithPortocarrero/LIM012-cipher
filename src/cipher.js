@@ -1,42 +1,46 @@
 const cipher = {
+}
   
-  encode(texto, offset){
-    const palabra = texto.length;
-    let resultado, ascii;
-    for (let i = 0; i < palabra; i++) {
-      //converti las letras a numeros ascii
-      ascii = texto.charCodeAt(i);
-      if(65<=ascii && ascii<=90){
-        console.log(result += String.fromCharCode((ascii-65+offset)%26+65));
+  cipher.encode = function (texto, offset){
+    let longitud = texto.length;
+    let cifrado='', ascii, resultado;
+    for(let i=0 ; i<longitud ; i++){
+      let ascii = texto.charCodeAt(i);
+      if(ascii>=65 && ascii<=90){
+        resultado = (ascii-65+offset)%26+65;
+        cifrado += String.fromCharCode(resultado);
+        console.log(cifrado);
       }
-      else if(97<=ascii && ascii<=122){
-        console.log(result += String.fromCharCode((ascii-65+offset)%26+65));
+      else if(ascii>=97 && ascii<=122){
+        resultado = (ascii-97+offset)%26+97;
+        cifrado += String.fromCharCode(resultado);
+        console.log(cifrado);
       }
-      else{
-        alert('solo escribir letras');
-      } 
-       
+      else if(ascii===32){
+        console.log(" ");
+      }
     }
-   
-    
-  },
+    return cifrado;
+  };
 
-  decode(texto, offset){
-    for (let i = 0; i < palabra.length; i++) {
-      //converti las letras a numeros ascii
-      ascii = texto.charCodeAt(i);
-      if(65<=ascii && ascii<=90){
-        result += String.fromCharCode((ascii-offset)%26);
+  cipher.decode = function (texto, offset){
+    let longitud = texto.length;
+    let decifrado, ascii2, resultado2;
+    for(let j=0; j<longitud; j++){
+      let ascii2 = texto.charCodeAt(j);
+      if(ascii2>=65 && ascii2<=90){
+        let resultado2 = (ascii2-90-offset)%26+90;
+        decifrado = String.fromCharCode(resultado2);
+        console.log(decifrado);
       }
-      else if(97<=ascii && ascii<=122){
-        result += String.fromCharCode((ascii-offset)%26);
+      else if(ascii2>=97 && ascii2<=122){
+        let resultado2 = (ascii2-122-offset)%26+122;
+        decifrado = String.fromCharCode(resultado2);
+        console.log(decifrado);
       }
-      else{
-        alert('solo escribir letras');
+      else if(ascii2===32){
+        console.log(" ");
       }
     }
-    return result;
-  }
 };
-
 export default cipher;
