@@ -7,32 +7,27 @@
   </head>
   <body>
     <header></header>
-    <main></main>
-    <div id="titulo">
-      <h6>MENSAJES OCULTOS...id para css que se unico</h6>
-      <h6>class se usa con punto "."</h6>
-      <div class="pkmn planta">bulbasaur</div>
-      <div class="pkmn agua">squirtle</div>
-      <div class="pkmn fuego">charmander</div>
+    <main>BIENVENIDO A MENSAJES OCULTOS</main><br>
+    <div id="todo">
+      <div id="mensajes">
+        <div id="ingresoT">
+          <label for="texto">mensaje</label>
+          <input type="text" id="texto">
+        </div><br>
+        <div id="ingresoN">
+          <label for="offset">offset</label>
+          <input type="number" id="offset">
+        </div><br><br>
+        <div id="salida">
+          <h3 id="codificado"></h3>
+        </div>
+      </div>
+      <div id="botones">
+        <div><input type="button" id="codificar" value="codificar"></div>
+        <div><input type="button" id="decodificar" value="dedcodificar"></div>
+      </div>
     </div>
-    <form>
-      <div>
-        <label for="texto">mensaje</label>
-        <input type="text" id="texto">
-      </div>
-      <div>
-        <label for="offset">offset</label>
-        <input type="number" id="offset">
-      </div>
-      <div>
-        <label for="codificar">codificar</label>
-        <input type="button" id="codificar">
-      </div>
-      <div>
-        <h3 id="codificado"></h3>
-      </div>
-    </form>
-    <footer>HOLA</footer>
+    <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,19 @@
+body{
+    background: yellow;
+    color: violet;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    font-size: medium;
+}
+.todo{
+    width: 100%;
+}
+.mensajes{
+    width: 15%;
+    float: left;
+}
+.botones{
+    width: 70%;
+    float: left;
+}
