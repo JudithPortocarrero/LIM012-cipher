@@ -1,19 +1,69 @@
 body{
-    background: yellow;
+    /*background: yellow;
+    margin:auto auto;
+    */
     color: violet;
+    background: url(https://image.freepik.com/foto-gratis/preciosa-tarjeta-felicitacion-sobre-flores-tulipanes-sobre-fondo-blanco-madera_24972-226.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
     text-align: center;
-    margin: auto;
-    padding: 100px;
-    font-size: medium;
 }
-.todo{
+/*#contenedor{
+    width: 70%;
+    margin: auto auto;
+    color: cornflowerblue;
+}*/
+#titulo{
+    border: black 10px;
+    color: black;
+    font-size: 30px;
+}
+#todo{
     width: 100%;
 }
-.mensajes{
-    width: 15%;
-    float: left;
+#decision{
+    width: 60%;
+    height: 90%;
+    padding: 50px;
+    background: rgba(248, 247, 247, 0.5);
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin:auto auto;
 }
-.botones{
-    width: 70%;
+#indexco{
     float: left;
+    width: 20%;
+    height: 10%;
+    display: block;
+    text-align: center;
 }
+#indexde{
+    float: right;
+    width: 20%;
+    height: 10%;
+    display: block;
+    text-align: center;
+}
+/*#imagen{
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 30%;
+    width: 60%;
+}*/
+#botones{
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+ .texte{
+   margin: 30px 0px 30px 0px;	
+   padding: 10px;
+   background: rgba(0,0,0,0.5);
+   display: inline-block;
+ }
