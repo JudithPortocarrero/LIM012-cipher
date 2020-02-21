@@ -1,9 +1,6 @@
 body{
-    /*background: yellow;
-    margin:auto auto;
-    */
     color: violet;
-    background: url(https://image.freepik.com/foto-gratis/preciosa-tarjeta-felicitacion-sobre-flores-tulipanes-sobre-fondo-blanco-madera_24972-226.jpg) no-repeat fixed center;
+    background: url(https://image.freepik.com/vector-gratis/fondo-plano-dia-san-valentin_23-2148400023.jpg) no-repeat fixed center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,13 +8,10 @@ body{
     height: 100%;
     width: 100% ;
     text-align: center;
+    font-family: Georgia;
 }
-/*#contenedor{
-    width: 70%;
-    margin: auto auto;
-    color: cornflowerblue;
-}*/
 #titulo{
+    padding: 35px 0 0 0;
     border: black 10px;
     color: black;
     font-size: 30px;
@@ -26,44 +20,77 @@ body{
     width: 100%;
 }
 #decision{
-    width: 60%;
-    height: 90%;
-    padding: 50px;
+    width: 50%;
+    height: 65%;
+    padding: 25px 50px 50px 50px;
     background: rgba(248, 247, 247, 0.5);
-    display: inline-block;
     align-content: center;
     text-align: center;
-    margin:auto auto;
+    margin:100px auto;
+    border-radius: 20px;
+    border: 2px solid black;
 }
-#indexco{
+.indexco{
     float: left;
     width: 20%;
     height: 10%;
     display: block;
     text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid black;
 }
-#indexde{
+.indexde{
     float: right;
     width: 20%;
     height: 10%;
     display: block;
     text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid black;
 }
-/*#imagen{
-    background-repeat: no-repeat; 
-    background-position: center center;
-    height: 30%;
-    width: 60%;
-}*/
+.inicio{
+    float: center;
+    width: 8%;
+    height: 5%;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+}
 #botones{
     width: 50%;
     float: left;
     display: block;
 }
-
- .texte{
-   margin: 30px 0px 30px 0px;	
-   padding: 10px;
-   background: rgba(0,0,0,0.5);
-   display: inline-block;
+ .ocultar{
+    display: none;
  }
+ #todo1{
+    width: 50%;
+    height: 65%;
+    padding: 50px;
+    background: rgba(248, 247, 247, 0.5);
+    align-content: center;
+    text-align: center;
+    margin:100px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+#todo2{
+    width: 50%;
+    height: 65%;
+    padding: 50px;
+    background: rgba(248, 247, 247, 0.5);
+    align-content: center;
+    text-align: center;
+    margin:100px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}

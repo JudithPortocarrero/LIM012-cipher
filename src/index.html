@@ -6,31 +6,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header id="titulo">BIENVENIDO A MENSAJES OCULTOS</header>
     <div id="decision">
-      <div id="titulo">BIENVENIDO A MENSAJES OCULTOS</div><br>
-      <div id="imagen"><img src="https://image.freepik.com/vector-gratis/coleccion-corazones_1111-77.jpg" height="200px" width="500px" ></div><br><br>
-      <div><input type="button" id="indexco" value="codificar"></div>
-      <div><input type="button" id="indexde" value="decodificar"></div>
+      <div id="imagen"><img src="https://image.freepik.com/vector-gratis/fondo-flores-acuarela-letras-amor_52683-32937.jpg" height="200px" width="500px" ></div><br><br>
+      <div><input type="button" id="indexco" class="indexco" value="codificar"></div>
+      <div><input type="button" id="indexde" class="indexde" value="decodificar"></div>
     </div>
-
-    <!--
-      <div class="portada">
-        <div class="texte">
-           <h1> div con imagen de fondo responsive</h1> 
-          <h3>Imagen adaptada a todas las resoluciones de pantalla</h3>
-        </div>
-      </div>
-    -->
-
-
-
-
-
+    
     <div id="todo1">
       <div id="mensajes1">
         <div id="ingresoT1">
           <label for="texto">mensaje</label>
-          <input type="text" id="texto" placeholder="mensaje">
+          <input type="text" id="texto"  class="mensajes" placeholder="mensaje">
         </div><br>
         <div id="ingresoN1">
           <label for="offset">offset</label>
@@ -41,14 +28,15 @@
         </div>
       </div>
       <div id="botones">
-        <div><input type="button" id="codificar" value="codificar"></div>
+        <div><input type="button" id="codificar" class="indexco" value="codificar"></div>
       </div>
     </div>
+
     <div id="todo2">
       <div id="mensajes2">
         <div id="ingresoT">
           <label for="texto">mensaje</label>
-          <input type="text" id="texto1">
+          <input type="text" id="texto1" class="mensajes" placeholder="mensaje">
         </div><br>
         <div id="ingresoN">
           <label for="offset">offset</label>
@@ -59,11 +47,12 @@
         </div>
       </div>
       <div id="botones1">
-        <div><input type="button" id="decodificar" value="decodificar"></div>
+        <div><input type="button" id="decodificar" class="indexco" value="decodificar"></div>
       </div>
     </div>
+
     <div id="inicioB">
-      <input type="button" id="inicio" value="inicio">
+      <input type="button" id="inicio" class="inicio" value="inicio">
     </div>
     <footer></footer>
     <script src="index.js" type="module"></script>
