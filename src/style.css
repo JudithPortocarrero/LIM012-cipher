@@ -11,13 +11,10 @@ body{
     font-family: Georgia;
 }
 #titulo{
-    padding: 35px 0 0 0;
+    padding: 60px 0 0 0;
     border: black 10px;
     color: black;
     font-size: 30px;
-}
-#todo{
-    width: 100%;
 }
 #decision{
     width: 50%;
@@ -26,7 +23,7 @@ body{
     background: rgba(248, 247, 247, 0.5);
     align-content: center;
     text-align: center;
-    margin:100px auto;
+    margin:50px auto;
     border-radius: 20px;
     border: 2px solid black;
 }
@@ -62,35 +59,33 @@ body{
     font-size: 15px;
     border: 2px solid black;
 }
-#botones{
-    width: 50%;
-    float: left;
-    display: block;
-}
  .ocultar{
     display: none;
  }
  #todo1{
     width: 50%;
     height: 65%;
-    padding: 50px;
+    padding: 25px 50px 50px 50px;
     background: rgba(248, 247, 247, 0.5);
     align-content: center;
-    text-align: center;
-    margin:100px auto;
+    text-align: left;
+    margin:50px auto;
     border-radius: 20px;
     border: 2px solid black;
-
 }
 #todo2{
     width: 50%;
     height: 65%;
-    padding: 50px;
+    padding: 25px 50px 50px 50px;
     background: rgba(248, 247, 247, 0.5);
     align-content: center;
-    text-align: center;
-    margin:100px auto;
+    text-align: left;
+    margin:50px auto;
     border-radius: 20px;
     border: 2px solid black;
 
+}
+.mensajes{
+    width: 500px;
+    height: 100px;
 }

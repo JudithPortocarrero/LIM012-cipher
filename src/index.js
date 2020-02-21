@@ -11,12 +11,11 @@ let codificado = document.getElementById("codificado");
 let codificado1 = document.getElementById("codificado1");
 function respuestaImpresa(){
   let todo = cipher.encode(document.getElementById("offset").value,document.getElementById("texto").value);
-  codificado.innerHTML="En un lenguaje secreto "+document.getElementById("texto").value+" significa:"+
-  todo;
+  codificado.innerHTML="Cifrado: "+ todo;
 }
 function respuestaImpresa2(){
   let todo = cipher.decode(document.getElementById("offset1").value,document.getElementById("texto1").value);
-  codificado1.innerHTML="En un lenguaje secreto "+document.getElementById("texto1").value+" significa:"+ todo;
+  codificado1.innerHTML="Decifrado: "+ todo;
 }
 //------------------------------------------------------------------------------------
 function indexcodi() {

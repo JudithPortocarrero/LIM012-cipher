@@ -1,3 +1,7 @@
+# cifrado cesar
+
+Este proyecto consiste en cifrar o descifrar los mensajes ingresados por el usuario, con la capacidad de admitir cualquier numero positivo para hacer los recorridos que desea (offset)
+
 # Cifrado César
 
 ## Índice
