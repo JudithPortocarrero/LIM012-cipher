@@ -1,6 +1,25 @@
+* Un título con el nombre de tu proyecto.
 # cifrado cesar
 
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
 Este proyecto consiste en cifrar o descifrar los mensajes ingresados por el usuario, con la capacidad de admitir cualquier numero positivo para hacer los recorridos que desea (offset)
+
+* La imagen final de tu proyecto.
+
+* Investigación UX:
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+    producto.
+    Al pedir feedback a mis compañeras sobre que tema les gustaría para mi proyecto eligieron una plataforma donde se puede escribir un mensaje y cifrarlo par poder ser enviado entre parejas y al ser resivido por la otra persona poder decifrarlo.
+    Entonces, mi usuario principal son las parejas que quieran enviarse mensajes sin que nadie mas pueda entenderlos en caso sean leídos.
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+    usuarios.
+    la solucion será dar mas privacidad a los mensajes intercambiados entre parejas
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+    inicialmente tenía dos ideas para la interfaz de este proyecto la cual al pedir feedback quedó seleccionada la que estaba dividida en 3 ventanas, tambien pedí opiniones del prototipo final y las opinmiones eran positivas y me dijeron que el diseño estaba bien
+  5. Imagen del prototipo final.
+  
 
 # Cifrado César
 

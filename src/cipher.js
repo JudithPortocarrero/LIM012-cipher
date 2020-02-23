@@ -1,6 +1,9 @@
 const cipher = {
 }
 cipher.encode = function (offset, string){
+  if(offset<0){
+    offset = offset * -1;
+  }
   const offset1=parseInt(offset,10);
   let longitud = string.length;
   let cifrado='';
@@ -23,6 +26,9 @@ cipher.encode = function (offset, string){
 };
   
 cipher.decode = function (offsets, strings){
+  if(offset<0){
+    offset = offset * -1;
+  }
   const offset1=parseInt(offsets,10);
   let longitud = strings.length;
   let decifrado='';
