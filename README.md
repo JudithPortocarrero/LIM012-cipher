@@ -2,27 +2,40 @@
 # cifrado cesar
 
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+
 Este proyecto consiste en cifrar o descifrar los mensajes ingresados por el usuario, con la capacidad de admitir cualquier numero positivo para hacer los recorridos que desea (offset)
 
 * La imagen final de tu proyecto.
+  ![prototipo](imagenes/prototipo.png)
 
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+
     Al pedir feedback a mis compañeras sobre que tema les gustaría para mi proyecto eligieron una plataforma donde se puede escribir un mensaje y cifrarlo par poder ser enviado entre parejas y al ser resivido por la otra persona poder decifrarlo.
     Entonces, mi usuario principal son las parejas que quieran enviarse mensajes sin que nadie mas pueda entenderlos en caso sean leídos.
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+
     la solucion será dar mas privacidad a los mensajes intercambiados entre parejas
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
 
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-    inicialmente tenía dos ideas para la interfaz de este proyecto la cual al pedir feedback quedó seleccionada la que estaba dividida en 3 ventanas, tambien pedí opiniones del prototipo final y las opinmiones eran positivas y me dijeron que el diseño estaba bien
-  5. Imagen del prototipo final.
-    ![caeser-cipher](imagenes/prototipo_papel.jpg)
-    ![caeser-cipher](https://www.figma.com/file/y4fq0b5XNFAYp0L4dyKMUK/Untitled?node-id=1%3A2)
-    ![caeser-cipher](https://www.figma.com/file/y4fq0b5XNFAYp0L4dyKMUK/Untitled?node-id=11%3A35)
+      ![prototipo](imagenes/prototipo_papel.jpg)
 
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+    inicialmente tenía dos ideas para la interfaz de este proyecto la cual al pedir feedback quedó seleccionada la que estaba dividida en 3 ventanas, tambien pedí opiniones del prototipo final y las opinmiones eran positivas y me dijeron que el diseño estaba bien
+
+  5. Imagen del prototipo final.
+
+    ![index1](imagenes/index1.jpg)
+    ![index2](imagenes/index2.jpg)
+    ![index3](imagenes/index3.jpg)
+
+
+    
 # Cifrado César
 
 ## Índice
