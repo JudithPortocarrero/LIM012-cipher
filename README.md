@@ -6,7 +6,7 @@
 Este proyecto consiste en cifrar o descifrar los mensajes ingresados por el usuario, con la capacidad de admitir cualquier numero positivo para hacer los recorridos que desea (offset)
 
 * La imagen final de tu proyecto.
-  ![prototipo](imagenes/prototipo.png)
+  ![prototipo](imagenes/pagina.png)
 
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
