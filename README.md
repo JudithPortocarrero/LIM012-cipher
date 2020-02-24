@@ -19,7 +19,7 @@ Este proyecto consiste en cifrar o descifrar los mensajes ingresados por el usua
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
     inicialmente tenía dos ideas para la interfaz de este proyecto la cual al pedir feedback quedó seleccionada la que estaba dividida en 3 ventanas, tambien pedí opiniones del prototipo final y las opinmiones eran positivas y me dijeron que el diseño estaba bien
   5. Imagen del prototipo final.
-    ![caeser-cipher](imagenes/prototipo_papel.jpeg)
+    ![caeser-cipher](imagenes/prototipo_papel.jpg)
     ![caeser-cipher](https://www.figma.com/file/y4fq0b5XNFAYp0L4dyKMUK/Untitled?node-id=1%3A2)
     ![caeser-cipher](https://www.figma.com/file/y4fq0b5XNFAYp0L4dyKMUK/Untitled?node-id=11%3A35)
 
