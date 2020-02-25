@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header id="titulo">BIENVENID@ A MENSAJES DE AMOR 
-    </header>
+    <header id="titulo">BIENVENID@ A MENSAJES DE AMOR </header>
     <div id="decision">
-      <div id="imagen"><img src="https://image.freepik.com/vector-gratis/fondo-flores-acuarela-letras-amor_52683-32937.jpg" height="200px" width="500px" ></div><br><br>
+      <div><img src="https://image.freepik.com/vector-gratis/fondo-flores-acuarela-letras-amor_52683-32937.jpg" height="200px" width="auto" ></div><br><br>
       <div><input type="button" id="indexco" class="indexco" value="codificar"></div>
       <div><input type="button" id="indexde" class="indexde" value="decodificar"></div>
     </div>
@@ -17,17 +17,18 @@
     <div id="todo1">
       <div id="mensajes1">
         <div id="ingresoT1">
-          <label for="texto">mensaje</label>
+          <label for="texto">mensaje</label>&nbsp;&nbsp;&nbsp;
           <input type="text" id="texto"  class="mensajes" placeholder="mensaje">
         </div><br>
         <div id="ingresoN1">
-          <label for="offset">offset</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="offset">offset</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <input type="number" id="offset">
-        </div><br><br>
+        </div><br>
         <div id="salida1">
-          <h3 id="codificado"></h3>
+          <label for="texto">decifrado</label>
+          <input type="text" id="codificado" class="mensajes1" placeholder="mensaje cifrado">
         </div>
-      </div>
+      </div><br>
       <div class="botones">
         <div><input type="button" id="codificar" class="indexco" value="codificar"></div>
       </div>
@@ -36,17 +37,18 @@
     <div id="todo2">
       <div id="mensajes2">
         <div id="ingresoT">
-          <label for="texto">mensaje</label>
+          <label for="texto">mensaje</label>&nbsp;&nbsp;
           <input type="text" id="texto1" class="mensajes" placeholder="mensaje">
         </div><br>
         <div id="ingresoN">
-          <label for="offset">offset</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="offset">offset</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <input type="number" id="offset1">
-        </div><br><br>
+        </div><br>
         <div id="salida">
-          <h3 id="codificado1"></h3>
+          <label for="texto">decifrado</label>
+          <input type="text" id="codificado1" class="mensajes1" placeholder="mensaje decifrado">
         </div>
-      </div>
+      </div><br>
       <div class="botones">
         <div><input type="button" id="decodificar" class="indexco" value="decodificar"></div>
       </div>

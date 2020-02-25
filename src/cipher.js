@@ -1,6 +1,6 @@
 const cipher = {
 }
-cipher.encode = function (offset, string){
+cipher.encode = (offset, string) => {
   if(offset<0){
     offset = offset * -1;
   }
@@ -25,7 +25,7 @@ cipher.encode = function (offset, string){
   return cifrado;
 };
   
-cipher.decode = function (offsets, strings){
+cipher.decode = (offsets, strings) => {
   if(offset<0){
     offset = offset * -1;
   }
