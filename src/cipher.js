@@ -18,9 +18,6 @@ cipher.encode = (offset, string) => {
     else if(ascii>=97 && ascii<=122){
       cifrado += String.fromCharCode((ascii-97+offset1)%26+97);
     }
-    else if(ascii===32){
-      cifrado+=" ";
-    }
     else{
       cifrado += String.fromCharCode(ascii);
     }
@@ -44,9 +41,6 @@ cipher.decode = (offset, string) => {
     }
     else if(ascii2>=97 && ascii2<=122){
       decifrado += String.fromCharCode((ascii2-122-offset1)%26+122);
-    }
-    else if(ascii2===32){
-      decifrado += " ";
     }
     else{
       decifrado += String.fromCharCode(ascii2);
