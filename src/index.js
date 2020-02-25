@@ -27,8 +27,6 @@ document.getElementById("inicio").addEventListener("click",() =>{
   document.getElementById("todo2").classList.add("ocultar");
   document.getElementById("decision").classList.remove("ocultar");
   document.getElementById("inicioB").classList.add("ocultar");
-  codificado.innerHTML="";
-  codificado1.innerHTML="";
   document.getElementById("texto").value="";
   document.getElementById("offset").value=""; 
 });
